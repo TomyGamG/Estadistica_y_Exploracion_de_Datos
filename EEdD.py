@@ -1,4 +1,3 @@
-# GOLART, DOLFI
 import os
 import sqlite3
 from os import system
@@ -338,3 +337,4 @@ while(opc!=0):
     opc=int(input("\tIngrese\n[1] Menu de Tablas\n[2] Mostrar promedio de fallecidos por provincia\n[3] Intervalos de Confirmados y Fallecidos\n[4] Intervalo de Hombres y Mujeres Fallecidas\n[5] Casos Confirmados Por Provincia\n[6] Menor Proporcion de Casos Confirmados\n[7] Mayor porcentaje de Fallecidos\n[8] Mayor Indices de Casos Confirmados\n[0] Salir: "))
     system("cls")
 con.close()
+
